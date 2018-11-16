@@ -25,7 +25,10 @@
       </dl>
       <p>{{detailData.synopsis}}</p>
     </div>
-  </div>
+    <div>
+      <input type="text" name="comment" class="input" id="input">
+    </div>
+</div>
 </template>
 <script>
 import axios from 'axios';
@@ -94,4 +97,6 @@ export default {
 #mz_detail .info dt{ width:80px; }
 #mz_detail .info dd{ flex:1; overflow:hidden; white-space: nowrap; text-overflow:ellipsis;}
 #mz_detail .info p{ padding:0 10px; box-sizing:border-box; line-height: 20px; margin-top: 10px; }
+
+
 </style>

@@ -7,7 +7,8 @@
 				<router-link to="/home" tag="li">影院<i class="iconfont icon-xiaojiantou"></i></router-link>
 				<router-link to="/home" tag="li">商城<i class="iconfont icon-xiaojiantou"></i></router-link>
 				<router-link to="/home" tag="li">我的<i class="iconfont icon-xiaojiantou"></i></router-link>
-				<router-link to="/home" tag="li">卖座卡<i class="iconfont icon-xiaojiantou"></i></router-link>
+				<router-link to="/biaoqing" tag="li">表情包<i class="iconfont icon-xiaojiantou"></i></router-link>
+				<router-link to="/bsscroll" tag="li">卖座卡<i class="iconfont icon-xiaojiantou"></i></router-link>
 			</ul>
 		</div>
 	</transition>

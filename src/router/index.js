@@ -5,6 +5,9 @@ import Film from '@/components/film';
 import Detail from '@/components/detail';
 import NowPlaying from '@/components/nowPlaying';
 import ComingSoon from '@/components/comingSoon';
+import First from '@/components/first';
+import BsScroll from '@/components/BsScroll';
+import BiaoQing from '@/components/BiaoQing';
 
 Vue.use(Router);
 
@@ -26,6 +29,18 @@ export default new Router({
     {
       path: '/detail/:id',
       component: Detail
+    },
+     {
+      path: '/first',
+      component: First
+    },
+      {
+      path: '/biaoqing',
+      component: BiaoQing
+    },
+    {
+      path: '/bsscroll',
+      component: BsScroll
     },
     {
       path: '/*',
